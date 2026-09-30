@@ -1,0 +1,32 @@
+{
+  "feature_version": "v1",
+  "feature_names": [
+    "name_exact_match",
+    "name_exact_stem_match",
+    "name_fuzz_ratio",
+    "name_token_sort_ratio",
+    "name_token_set_ratio",
+    "name_partial_ratio",
+    "name_stem_ratio",
+    "name_stem_token_sort",
+    "name_jaccard_tokens",
+    "name_jaccard_char_3gram",
+    "name_common_tokens",
+    "name_len_diff_ratio",
+    "addr_exact_match",
+    "addr_fuzz_ratio",
+    "addr_token_sort_ratio",
+    "addr_token_set_ratio",
+    "addr_partial_ratio",
+    "addr_jaccard_tokens",
+    "addr_num_match_score",
+    "addr_num_common_count",
+    "addr_len_diff_ratio",
+    "country_exact_match",
+    "country_both_unknown",
+    "is_source3",
+    "combined_name_addr_score"
+  ],
+  "feature_count": 25,
+  "saved_at": "2026-09-30T09:22:36.392399Z"
+}

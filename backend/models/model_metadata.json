@@ -1,0 +1,293 @@
+{
+  "model_version": "v1",
+  "model_type": "random_forest",
+  "training_date": "2026-09-30T09:22:36.261124Z",
+  "training_dataset": "dataset_archive.zip",
+  "feature_version": "v1",
+  "feature_count": 25,
+  "threshold": 0.17,
+  "validation_precision": 1.0,
+  "validation_recall": 1.0,
+  "validation_f1": 1.0,
+  "validation_f05": 1.0,
+  "validation_accuracy": 1.0,
+  "tp": 3,
+  "fp": 0,
+  "tn": 134,
+  "fn": 0,
+  "total_training_samples": 546,
+  "total_positive_pairs": 11,
+  "total_negative_pairs": 535,
+  "feature_importances": {
+    "name_exact_match": 0.0,
+    "name_exact_stem_match": 0.0,
+    "name_fuzz_ratio": 0.0336,
+    "name_token_sort_ratio": 0.0227,
+    "name_token_set_ratio": 0.0046,
+    "name_partial_ratio": 0.0266,
+    "name_stem_ratio": 0.0185,
+    "name_stem_token_sort": 0.007,
+    "name_jaccard_tokens": 0.0083,
+    "name_jaccard_char_3gram": 0.0373,
+    "name_common_tokens": 0.0,
+    "name_len_diff_ratio": 0.0044,
+    "addr_exact_match": 0.0,
+    "addr_fuzz_ratio": 0.0954,
+    "addr_token_sort_ratio": 0.0938,
+    "addr_token_set_ratio": 0.2121,
+    "addr_partial_ratio": 0.1696,
+    "addr_jaccard_tokens": 0.1709,
+    "addr_num_match_score": 0.0,
+    "addr_num_common_count": 0.0059,
+    "addr_len_diff_ratio": 0.0008,
+    "country_exact_match": 0.0,
+    "country_both_unknown": 0.0,
+    "is_source3": 0.001,
+    "combined_name_addr_score": 0.0875
+  },
+  "threshold_curve": [
+    {
+      "threshold": 0.1,
+      "f05": 0.6522,
+      "f1": 0.75,
+      "precision": 0.6,
+      "recall": 1.0,
+      "tp": 3,
+      "fp": 2
+    },
+    {
+      "threshold": 0.11,
+      "f05": 0.6522,
+      "f1": 0.75,
+      "precision": 0.6,
+      "recall": 1.0,
+      "tp": 3,
+      "fp": 2
+    },
+    {
+      "threshold": 0.12,
+      "f05": 0.7895,
+      "f1": 0.8571,
+      "precision": 0.75,
+      "recall": 1.0,
+      "tp": 3,
+      "fp": 1
+    },
+    {
+      "threshold": 0.13,
+      "f05": 0.7895,
+      "f1": 0.8571,
+      "precision": 0.75,
+      "recall": 1.0,
+      "tp": 3,
+      "fp": 1
+    },
+    {
+      "threshold": 0.14,
+      "f05": 0.7895,
+      "f1": 0.8571,
+      "precision": 0.75,
+      "recall": 1.0,
+      "tp": 3,
+      "fp": 1
+    },
+    {
+      "threshold": 0.15,
+      "f05": 0.7895,
+      "f1": 0.8571,
+      "precision": 0.75,
+      "recall": 1.0,
+      "tp": 3,
+      "fp": 1
+    },
+    {
+      "threshold": 0.16,
+      "f05": 0.7895,
+      "f1": 0.8571,
+      "precision": 0.75,
+      "recall": 1.0,
+      "tp": 3,
+      "fp": 1
+    },
+    {
+      "threshold": 0.17,
+      "f05": 1.0,
+      "f1": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "tp": 3,
+      "fp": 0
+    },
+    {
+      "threshold": 0.18,
+      "f05": 1.0,
+      "f1": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "tp": 3,
+      "fp": 0
+    },
+    {
+      "threshold": 0.19,
+      "f05": 1.0,
+      "f1": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "tp": 3,
+      "fp": 0
+    },
+    {
+      "threshold": 0.2,
+      "f05": 1.0,
+      "f1": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "tp": 3,
+      "fp": 0
+    },
+    {
+      "threshold": 0.21,
+      "f05": 1.0,
+      "f1": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "tp": 3,
+      "fp": 0
+    },
+    {
+      "threshold": 0.22,
+      "f05": 1.0,
+      "f1": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "tp": 3,
+      "fp": 0
+    },
+    {
+      "threshold": 0.23,
+      "f05": 1.0,
+      "f1": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "tp": 3,
+      "fp": 0
+    },
+    {
+      "threshold": 0.24,
+      "f05": 1.0,
+      "f1": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "tp": 3,
+      "fp": 0
+    },
+    {
+      "threshold": 0.25,
+      "f05": 1.0,
+      "f1": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "tp": 3,
+      "fp": 0
+    },
+    {
+      "threshold": 0.26,
+      "f05": 1.0,
+      "f1": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "tp": 3,
+      "fp": 0
+    },
+    {
+      "threshold": 0.27,
+      "f05": 1.0,
+      "f1": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "tp": 3,
+      "fp": 0
+    },
+    {
+      "threshold": 0.28,
+      "f05": 1.0,
+      "f1": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "tp": 3,
+      "fp": 0
+    },
+    {
+      "threshold": 0.29,
+      "f05": 1.0,
+      "f1": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "tp": 3,
+      "fp": 0
+    },
+    {
+      "threshold": 0.3,
+      "f05": 1.0,
+      "f1": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "tp": 3,
+      "fp": 0
+    },
+    {
+      "threshold": 0.31,
+      "f05": 1.0,
+      "f1": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "tp": 3,
+      "fp": 0
+    },
+    {
+      "threshold": 0.32,
+      "f05": 1.0,
+      "f1": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "tp": 3,
+      "fp": 0
+    },
+    {
+      "threshold": 0.33,
+      "f05": 1.0,
+      "f1": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "tp": 3,
+      "fp": 0
+    },
+    {
+      "threshold": 0.34,
+      "f05": 1.0,
+      "f1": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "tp": 3,
+      "fp": 0
+    }
+  ],
+  "all_model_evaluations": {
+    "random_forest": {
+      "metrics": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "f05": 1.0,
+        "accuracy": 1.0,
+        "tp": 3,
+        "fp": 0,
+        "fn": 0,
+        "tn": 134,
+        "total_samples": 137,
+        "optimal_threshold": 0.17
+      },
+      "optimal_threshold": 0.17
+    }
+  }
+}

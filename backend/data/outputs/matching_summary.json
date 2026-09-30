@@ -1,0 +1,24 @@
+{
+  "total_entities": 5000,
+  "total_matches": 4030,
+  "unmatched_entities": 970,
+  "total_match_pairs": 11392,
+  "high_confidence_count": 5742,
+  "medium_confidence_count": 5650,
+  "threshold_used": 0.7,
+  "source1_processed_path": "C:\\Users\\surya\\Documents\\project\\EntiX\\backend\\data\\processed\\uploaded_source1_processed.tsv",
+  "matching_file": "C:\\Users\\surya\\Documents\\project\\EntiX\\backend\\data\\outputs\\matching_results.tsv",
+  "candidate_file": "C:\\Users\\surya\\Documents\\project\\EntiX\\backend\\data\\outputs\\candidate_pairs.tsv",
+  "confidence_distribution": {
+    "0.90-1.00": 4576,
+    "0.80-0.89": 1770,
+    "0.70-0.79": 5046,
+    "0.60-0.69": 2674,
+    "0.50-0.59": 7845,
+    "<0.50": 112415
+  },
+  "source_breakdown": {
+    "source2": 5902,
+    "source3": 5490
+  }
+}

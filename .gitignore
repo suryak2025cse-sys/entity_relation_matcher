@@ -1,0 +1,52 @@
+# Node / Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/.oxlintrc.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+build/
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+parts/
+dist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Environment variables
+.env
+.env.local
+
+# Large datasets & archive extractions (>50MB)
+backend/data/extracted/
+backend/data/uploads/*.tsv
+backend/data/uploads/*.zip
+backend/data/processed/
+backend/data/candidates/
+backend/data/outputs/*.tsv
+dataset/train/train_*.tsv
+*.zip
+*.tar.gz
+
+# Retain sample datasets & models
+!sample_test_datasets/*.tsv
+!backend/models/*
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
